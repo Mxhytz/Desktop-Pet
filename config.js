@@ -1,4 +1,4 @@
-const Config = {
+const CONFIG = {
     server: {
         host: '127.0.0.1',
         port: 3001,
@@ -247,8 +247,8 @@ const Config = {
 };
 
 if (typeof module !== 'undefined' && module.exports) {
-    module.exports = Config;
+    module.exports = CONFIG;
 }
 if (typeof window !== 'undefined') {
-    window.Config = Config;
+    window.CONFIG = CONFIG;
 }
